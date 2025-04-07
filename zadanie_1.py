@@ -10,7 +10,7 @@ def znajdz_min_max(tab):
 print("posortowana tablica")
 print("min, max, kroki") 
 print(znajdz_min_max(tablica_posortowana))
-
+#jako ze tablica jest posortowana, to zlozonosc czasowa i pamieciowa: O(1) 
 
 
 tablica_nieposortowana= [411, -1221, 34, 25, 579, -2]
@@ -28,6 +28,9 @@ def znajdz_min_max_nieposort(arr):
 print("\nnieposortowana tablica")
 print("min, max, kroki")
 print(znajdz_min_max_nieposort(tablica_nieposortowana))
+#Złożoność czasowa: O(n) (przechodzimy przez wszystkie elementy tablicy)
+#Złożoność pamięciowa: O(1) (stała ilość dodatkowej pamięci)
+
 
 
 #drzewo binarne
@@ -65,3 +68,5 @@ print("min, kroki")
 print(znajdz_min(root))
 print("max, kroki")
 print(znajdz_max(root))
+#Złożoność czasowa: O(m), gdzie m to wysokość drzewa (schodzimy w dół wzdłuż jednej galezi
+#Złożoność pamięciowa: O(1) stala ilosc dodatkowej pamieci
